@@ -21,7 +21,6 @@ body {
 
 .navEl {
     background-color: white;
-    height: 240px;
     color: black;
 }
 
@@ -34,10 +33,6 @@ body {
     padding: 10px;
 }
 
-.row-cols-4 {
-    font-size: large;
-}
-
 .btn-group {
     padding: 0px;
     text-align: center;
@@ -48,22 +43,21 @@ body {
     color: black;
     border-color: white;
     border-radius: 0px;
-    font-size: 1.2em
+    font-size: 1em
 }
 
 .btn-secondary {
     background-color: #d7ccc8;
     color: black;
-    border-color: white;
+    border-color: #d7ccc8;
     border-radius: 0px;
-    font-size: 1.5em
+    font-size: 1.1em
 }
 .card {
     background-color: white;
     border-color: white;
     border-radius: 0px;
 }
-
 
 .card-title {
     color: black;
@@ -78,16 +72,16 @@ body {
 }
 .news {
     font-size:30px;
-    colour: #424242;
+    color: #424242;
     padding: 10px 290px 0 280px;
 }
 .ntext {
     padding: 10px 290px 30px 280px;
-    colour: #424242;
+    color: #424242;
 }
 .new2 {
     font-size: 16px;
-    colour: #424242;
+    color: #424242;
     padding: 10px 290px 30px 290px;
 }
 .new2text {
@@ -104,5 +98,5 @@ body {
 }
 .ntext1 {
     padding: 10px 0 0 30px;
-    colour: #424242;
+    color: #424242;
 }

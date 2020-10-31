@@ -14,21 +14,53 @@
 <body>
 <header>
     <nav>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-3 logo navEl">
+        <div class="container">
+            <div class="row align-items-center text-center navEl">
+                <div class="col logo navEl">
                     <img src="image/обложка.png">
                 </div>
-                <div class="col-9">
-                    <div class="row row-cols-4 navEl">
-                        <p class="col">Город отправления:</p>
-                        <p class="col">Контакты:</p>
-                        <a class="col">Корзина</a>
-                        <a class="col">Войти</a>
-                        <a class="col">Онлайн-бронирование</a>
-                        <a class="col">Города</a>
-                        <a class="col">О компании</a>
-                        <a class="col">Оставить отзыв</a>
+                <div class="col"><a class="btn btn-secondary" href="#" role="button">Корзина</a></div>
+                <div class="col"><a class="btn btn-secondary" href="#" role="button">О компании</a></div>
+                <div class="col"><a class="btn btn-secondary" href="#" role="button">Оставить отзыв</a></div>
+                <div class="col">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Войти
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Войти</h5>
+                                    <button type="button" class="btn-close" data-dismiss="modal"
+                                            aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-check">
+                                        <div>
+                                            <label for="exampleFormControlInput1" class="form-label">Email адрес</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                   placeholder="name@example.com">
+                                            <label for="exampleFormControlInput2" class="form-label">Пароль</label>
+                                            <input type="password" class="form-control" id="exampleFormControlInput2"
+                                                   placeholder="">
+                                        </div>
+                                        <h5>Еще не зарегестрированы?</h5>
+                                        <p> Тогда вам нужно <a href="#" class="tooltip-test" title="Регистрация">зарегистрироваться</a></p>
+                                    </div>
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                           checked>
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Запомнить меня?
+                                    </label>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-info">Войти</button>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -113,7 +145,7 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <a href="#">
+                        <a href="news/new1.html">
                             <img src="image/обл1.png" class="d-block w-100" alt="action">
                         </a>
                     </div>
