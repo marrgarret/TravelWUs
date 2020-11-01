@@ -1,0 +1,385 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+          integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>TravelIWU</title>
+
+</head>
+<body>
+<header>
+    <nav>
+        <div class="container">
+            <div class="row align-items-center text-center navEl">
+                <div class="col logo navEl">
+                    <img src="image/обложка.png">
+                </div>
+                <div class="col"><a class="btn btn-secondary" href="#" role="button">Корзина</a></div>
+                <div class="col"><a class="btn btn-secondary" href="#" role="button">О компании</a></div>
+                <div class="col"><a class="btn btn-secondary" href="#" role="button">Оставить отзыв</a></div>
+                <div class="col">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Войти
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Войти</h5>
+                                    <button type="button" class="btn-close" data-dismiss="modal"
+                                            aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-check">
+                                        <div>
+                                            <label for="exampleFormControlInput1" class="form-label">Email адрес</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                   placeholder="name@example.com">
+                                            <label for="exampleFormControlInput2" class="form-label">Пароль</label>
+                                            <input type="password" class="form-control" id="exampleFormControlInput2"
+                                                   placeholder="">
+                                        </div>
+                                        <h5>Еще не зарегестрированы?</h5>
+                                        <p> Тогда вам нужно <a href="#" class="tooltip-test" title="Регистрация">зарегистрироваться</a></p>
+                                    </div>
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                           checked>
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Запомнить меня?
+                                    </label>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-info">Войти</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-9">
+                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle"
+                                data-toggle="dropdown"
+                                aria-expanded="false">
+                            Откуда
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDrop2" type="button" class="btn btn-primary dropdown-toggle"
+                                data-toggle="dropdown"
+                                aria-expanded="false">
+                            Куда
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDrop3" type="button" class="btn btn-primary dropdown-toggle"
+                                data-toggle="dropdown"
+                                aria-expanded="false">
+                            Даты выезда
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDrop4" type="button" class="btn btn-primary dropdown-toggle"
+                                data-toggle="dropdown"
+                                aria-expanded="false">
+                            Количество ночей
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDrop5" type="button" class="btn btn-primary dropdown-toggle"
+                                data-toggle="dropdown"
+                                aria-expanded="false">
+                            Количество человек
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-primary">Подобрать тур</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="news/new1.html">
+                            <img src="image/обл1.png" class="d-block w-100" alt="action">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#">
+                            <img src="image/акции1.png" class="d-block w-100" alt="action">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#">
+                            <img src="image/акции2.png" class="d-block w-100" alt="action">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#">
+                            <img src="image/акции3.png" class="d-block w-100" alt="action">
+                        </a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col-4">
+                <h3>Лушие предложения туров</h3>
+            </div>
+            <div class="col-4">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle btn-block" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-expanded="false">
+                        Все города России
+                    </button>
+                    <ul class="dropdown-menu btn-block" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Выбрать город</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col-5 pb-3 mr-3 h-50 w-20">
+                <div class="card bg-dark text-white">
+                    <a href="#">
+                        <img src="image/baikal.png" class="card-img" alt="hotel">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">The heart of Baikal</h5>
+                            <p class="card-text">Байкал, Россия</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-5 pb-3 mr-3 h-50 w-20">
+                <div class="card bg-dark text-white">
+                    <a href="#">
+                        <img src="image/moscow.png" class="card-img" alt="hotel">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Moscow city</h5>
+                            <p class="card-text">Сочи, Россия</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-evenly">
+                <div class="col-5 pb-3 mr-3 h-50 w-20">
+                    <div class="card bg-dark text-white">
+                        <a href="#">
+                            <img src="image/bella.png" class="card-img" alt="hotel">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">My Bella Hotel</h5>
+                                <p class="card-text">Анапа, Россия</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-5 pb-3 mr-3 h-50 w-20">
+                    <div class="card bg-dark text-white">
+                        <a href="#">
+                            <img src="image/grand.png" class="card-img" alt="hotel">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">Grand Hotel</h5>
+                                <p class="card-text">Калининград, Россия</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col-5 p-3 m-3">
+                <a href="news/news.html"><h3 class="p-3 m-3">Новости</h3></a>
+                <ul class="ntext1">
+                    <a href="news/new1.html">
+                        Раннее бронирование 2021
+                    </a>
+                    <ul>
+                        19.10.2020
+                    </ul>
+                    <a href="news/new9.html">
+                        Условия перебронирования от 15.10.2020 г.
+                    </a>
+                    <ul>
+                        16.10.2020
+                    </ul>
+                    <a href="news/new2.html">
+                        На Курорте Красная Поляна открыли летнюю террасу с бассейном и новые парные
+                    </a>
+                    <ul>
+                        20.07.2020
+                    </ul>
+                    <a href="news/new3.html">
+                        «РусЛайн» полетит из Воронежа в Сочи
+                    </a>
+                    <ul>
+                        16.07.2020
+                    </ul>
+                    <a href="news/new4.html">
+                        Билеты в Сочи раскупают активнее, чем в прошлом году
+                    </a>
+                    <ul>
+                        15.07.2020
+                    </ul>
+                    </li>
+                    <a href="news/new5.html">
+                        Крымские санатории вновь требуют справки об отсутствии COVID-19
+                    </a>
+                    <ul>
+                        14.07.2020
+                    </ul>
+                    <a href="news/new6.html">
+                        В Мурманской области хотят ввести сертификацию гидов
+                    </a>
+                    <ul>
+                        09.07.2020
+                    </ul>
+                    <a href="news/new7.html">
+                        В 2020 году на российских курортах могут отдохнуть 22 млн туристов
+                    </a>
+                    <ul>
+                        29.06.2020
+                    </ul>
+                    <a href="news/new8.html">
+                        Курорт Красная Поляна открыл для гостей летнее предложение «Зарядись энергией гор»
+                    </a>
+                    <ul>
+                        29.06.2020
+                    </ul>
+                </ul>
+            </div>
+            <div class="col-5 p-3 m-3">
+                <a href="inf/inf.html"><h3 class="p-3 m-3">Полезная информация</h3></a>
+                <img src="image/plane.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container footEl">
+        <div class="row">
+            <div class="col-4"><h3>Популярные направления</h3></div>
+            <div class="col-4 offset-4"><h3>Туристам</h3></div>
+        </div>
+        <div class="row">
+            <div class="col-1 list-group">
+                <a href="#">Москва</a>
+                <a href="#">Санкт-Петербург</a>
+                <a href="#">Казань</a>
+                <a href="#">Сочи</a>
+                <a href="#">Нижний Новгород</a>
+            </div>
+            <div class="col-1 offset-1 list-group">
+                <a href="#">Калининград</a>
+                <a href="#">Ярославль</a>
+                <a href="#">Екатеринбург</a>
+                <a href="#">Симферополь</a>
+                <a href="#">Анапа</a>
+            </div>
+            <div class="col-1 offset-5 list-group">
+                <a href="#">Туры</a>
+                <a href="#">Авиабилеты</a>
+                <a href="#">Акции и спецпредложения</a>
+                <a href="#">Оставить отзывы</a>
+            </div>
+            <div class="col-1 offset-1 list-group">
+                <a href="inf/aboutvisa.html">О визах</a>
+                <a href="inf/howtobooktour.html">Как забронировать тур</a>
+                <a href="inf/minsdrav.html">Минздрав предупреждает</a>
+                <a href="inf/qws/qws.html">Популярные вопросы</a>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-4 list-group">
+                <ul>Контакты:</ul>
+                <ul>8-800-555-35-35</ul>
+                <ul>8-800-510-00-00</ul>
+            </div>
+            <div class="col offset-4">
+                <img src="image/visa.png">
+                <img src="image/mastercard.png">
+                <img src="image/Euroset.png">
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js"
+        integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
