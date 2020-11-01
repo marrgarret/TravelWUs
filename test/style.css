@@ -9,6 +9,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.footer {
+    margin-top: auto;
+}
+
 .logo {
     padding: 0px;
     margin: auto;
@@ -18,7 +22,12 @@ body {
     padding: 20px;
     margin: auto;
 }
-
+.modalText {
+    text-align: start;
+}
+.headerEl {
+    border: white 1px solid
+}
 .navEl {
     background-color: white;
     color: black;
@@ -93,7 +102,7 @@ body {
     text-align: center;
 }
 .new3img {
-    padding: 0 0 30px; 100px;
+    padding: 0 0 30px 100px;
     text-align: center;
 }
 .ntext1 {
