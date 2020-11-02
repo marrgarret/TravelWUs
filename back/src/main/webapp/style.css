@@ -1,0 +1,102 @@
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background: #d7ccc8;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+    padding: 0px;
+    margin: auto;
+}
+
+.wallpaper {
+    padding: 20px;
+    margin: auto;
+}
+
+.navEl {
+    background-color: white;
+    color: black;
+}
+
+.footEl {
+    background-color: #a29a97;
+    color: black;
+}
+
+.row {
+    padding: 10px;
+}
+
+.btn-group {
+    padding: 0px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #d7ccc8;
+    color: black;
+    border-color: white;
+    border-radius: 0px;
+    font-size: 1em
+}
+
+.btn-secondary {
+    background-color: #d7ccc8;
+    color: black;
+    border-color: #d7ccc8;
+    border-radius: 0px;
+    font-size: 1.1em
+}
+.card {
+    background-color: white;
+    border-color: white;
+    border-radius: 0px;
+}
+
+.card-title {
+    color: black;
+    font-size: 1.8em;
+    font-weight: bold
+}
+
+.card-text {
+    color: black;
+    font-style: oblique;
+    font-weight: bold
+}
+.news {
+    font-size:30px;
+    color: #424242;
+    padding: 10px 290px 0 280px;
+}
+.ntext {
+    padding: 10px 290px 30px 280px;
+    color: #424242;
+}
+.new2 {
+    font-size: 16px;
+    color: #424242;
+    padding: 10px 290px 30px 290px;
+}
+.new2text {
+    font-size:23px;
+}
+.new2img {
+    width: 80%;
+    padding: 0 0 30px 100px;
+    text-align: center;
+}
+.new3img {
+    padding: 0 0 30px 100px;
+    text-align: center;
+}
+.ntext1 {
+    padding: 10px 0 0 30px;
+    color: #424242;
+}
