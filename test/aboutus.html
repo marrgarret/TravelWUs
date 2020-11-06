@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
           integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>О компании TravelWU</title>
 
@@ -14,21 +14,114 @@
 <body>
 <header>
     <nav>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-3 logo navEl">
-                    <a href="index.html"><img src="image/обложка.png"></a>
+        <div class="container headerElBor">
+            <div class="row align-items-center text-center">
+                <div class="col logo">
+                    <a href="./index.html"><img src="./image/обложка.png"></a>
                 </div>
-                <div class="col-9">
-                    <div class="row row-cols-4 navEl">
-                        <p class="col">Город отправления:</p>
-                        <p class="col">Контакты:</p>
-                        <a class="col">Корзина</a>
-                        <a class="col">Войти</a>
-                        <a class="col">Онлайн-бронирование</a>
-                        <a class="col">Города</a>
-                        <a class="col">О компании</a>
-                        <a class="col">Оставить отзыв</a>
+                <div class="col headerEl"><a class="btn btn-block btn-secondary" href="./bucket/bucket.html"
+                                             role="button">Корзина</a></div>
+                <div class="col headerEl"><a class="btn btn-block btn-secondary" href="./aboutus.html" role="button">О
+                    компании</a></div>
+                <div class="col headerEl"><a class="btn btn-block btn-secondary" href="./feedback/feedback.html"
+                                             role="button">Оставить отзыв</a></div>
+                <div class="col headerEl">
+                    <div>
+                        <button type="button" class="btn btn-block btn-secondary" data-toggle="modal"
+                                data-target="#exampleModal">
+                            Войти
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                             aria-hidden="true">
+                            <div class="modal-dialog modalText">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Войти</h5>
+                                        <button type="button" class="btn-close" data-dismiss="modal"
+                                                aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="form-check">
+                                            <div>
+                                                <label for="exampleFormControlInput1" class="form-label">Email
+                                                    адрес</label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                       placeholder="name@example.com">
+                                                <label for="exampleFormControlInput2" class="form-label">Пароль</label>
+                                                <input type="password" class="form-control"
+                                                       id="exampleFormControlInput2"
+                                                       placeholder="">
+                                            </div>
+                                            <h5>Еще не зарегестрированы?</h5>
+                                            <p> Тогда вам нужно <a href="#myModal" data-toggle="modal"
+                                                                   class="tooltip-test"
+                                                                   title="Регистрация">зарегистрироваться</a></p>
+                                        </div>
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                               checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Запомнить меня?
+                                        </label>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть
+                                        </button>
+                                        <button type="button" class="btn btn-info">Войти</button>
+                                    </div>
+                                    <div class="modal fade" id="myModal" tabindex="-1"
+                                         aria-labelledby="exampleModalLabel"
+                                         aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="myModalLabel">Регистрация</h5>
+                                                    <button type="button" class="btn-close" data-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="form-check">
+                                                        <div>
+                                                            <label for="exampleFormControlInput3" class="form-label">Email
+                                                                адрес</label>
+                                                            <input type="email" class="form-control"
+                                                                   id="exampleFormControlInput3"
+                                                                   placeholder="name@example.com">
+                                                            <label for="exampleFormControlInput4"
+                                                                   class="form-label">Имя</label>
+                                                            <input type="text" class="form-control"
+                                                                   id="exampleFormControlInput4"
+                                                                   placeholder="Олег">
+                                                            <label for="exampleFormControlInput5"
+                                                                   class="form-label">Логин</label>
+                                                            <input type="text" class="form-control"
+                                                                   id="exampleFormControlInput5"
+                                                                   placeholder="Oleg-KZN">
+                                                            <label for="exampleFormControlInput6"
+                                                                   class="form-label">Пароль</label>
+                                                            <input type="password" class="form-control"
+                                                                   id="exampleFormControlInput6"
+                                                                   placeholder="">
+                                                            <label for="exampleFormControlInput7" class="form-label">Повторите
+                                                                пароль</label>
+                                                            <input type="password" class="form-control"
+                                                                   id="exampleFormControlInput7"
+                                                                   placeholder="">
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-danger"
+                                                                    data-dismiss="modal">Закрыть
+                                                            </button>
+                                                            <button type="button" class="btn btn-info">Регистрация
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -38,9 +131,9 @@
 
 <section>
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-9">
-                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <div class="row">
+            <div class="col">
+                <div class="btn-group btn-block" role="group" aria-label="Button group with nested dropdown">
                     <div class="btn-group" role="group">
                         <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle"
                                 data-toggle="dropdown"
@@ -106,80 +199,138 @@
         </div>
     </div>
 </section>
+
 <section>
-    <div class="new2">
-        <p class="new2text">О компании.</p>
-        <img class="new3img" src="image/aboutuslogo.png">
-        <p class="about1">Общая информация о компании</p>
+    <div class="container">
+        <div class="row">
+            <h1>О компании</h1>
+            <img class="aboutUsImg" src="image/aboutuslogo.png">
+            <div class="row">
+                <h3>Общая информация о компании</h3>
 
-        <p>TravelWUs - один из лидеров российской туристической отрасли и одна из крупнейших международных туристических компаний. История компании началась в последней четверти ХХ века.</p>
+                <p>TravelWUs - один из лидеров российской туристической отрасли и одна из крупнейших международных
+                    туристических компаний. История компании началась в последней четверти ХХ века.</p>
 
-        <p>TravelWUs сегодня – это современная универсальная туристическая компания, которая предлагает широкий спектр услуг для всех групп клиентов, активно участвует в социальной и экономической жизни страны.</p>
+                <p>TravelWUs сегодня – это современная универсальная туристическая компания, которая предлагает широкий
+                    спектр услуг для всех групп клиентов, активно участвует в социальной и экономической жизни
+                    страны.</p>
 
-        <p>Мы отправляем на отдых из 51 города РФ
-        Мы предлагаем отдых на лучших курортах и отелях (2500 отелей) в России
-        Мы работаем с ведущими авиакомпаниями Россиик Мы предлагаем 7 дней в неделю, 24 часа в сутки онлайн заказ туров и билетов на регулярные рейсы по всей России</p>
-        <p class="about1">Миссия и цели</p>
-        <p>Мы работаем, чтобы сделать TravelWUs лучшим туроператором для своих клиентов. Мы хотим, чтобы каждому человеку, который находится на сайте компании, приходит в офисы TravelWUs, пользуется услугами компании, нравилось быть клиентом TravelWUs. А для этого необходимо:</p>
-
-        <li>предоставлять качественное обслуживания в любом месте и в любое время</li>
-        <li>сделать все услуги TravelWUs, в соответствии с современными стандартами сервиса</li>
-        <li>уделять внимание пожеланиям клиентов и оказывать максимальную заботу</li>
-        <li>стараться, чтобы каждое наше решение принималось в интересах наших клиентов</li>
-        <li>предлагать именно то, что нужно клиенту, и предвосхищать его желания</li>
-
+                <p>Мы отправляем на отдых из 51 города РФ
+                    Мы предлагаем отдых на лучших курортах и отелях (2500 отелей) в России.
+                    Мы работаем с ведущими авиакомпаниями Россиик Мы предлагаем 7 дней в неделю, 24 часа в сутки онлайн
+                    заказ туров и билетов на регулярные рейсы по всей России</p>
+            </div>
+            <div class="row">
+                <h3>Почему именно мы?</h3>
+                <p>Туры стоят немалых денег, а ваше время – и того больше! Поэтому мы создали сервис, благодаря которому
+                    вы можете сэкономить свои ценные ресурсы. Закажите готовый тур онлайн. С TravelWs вы всегда будете
+                    уверены, что отдых пройдет на ура!</p>
+                <p>Это выгодно!</p>
+                <p>Больше нет необходимости обзванивать десятки турагентств. Мы уже собрали на одном сайте самые
+                    выгодные предложения.</p>
+                <p>Это надежно!</p>
+                <p>Хотите быть уверены, что с вашим отдыхом будет все в порядке?
+                    Туроператор «не прогорит», отель будет соответствовать фото в рекламе, документы и вылет — в
+                    срок?</p>
+                <p>Это удобно!</p>
+                <p>Ну и наконец — оставьте больше времени для семьи и друзей, все хлопоты берем на себя! Покупка тура у
+                    нас — это просто и удобно.</p>
+                <p>Бонусы для пользователей</p>
+                <p>Мы стараемся сделать ваши покупки максимально выгодными, поэтому постоянно следим за выходом новых
+                    акций и скидок. Заходите на сайт почаще, чтобы не пропускать выгодные обновления!</p>
+            </div>
+            <div class="row justify-content-center">
+                <h3>Наш персонал</h3>
+                <div class="col-3 card2">
+                    <img src="image/рита.jpg" class="card-img-top p-1" alt="...">
+                    <div class="card2-body">
+                        <p class="card2-text">Жевнерович Маргарита - техлид, архитектор, менеджер проекта, серверный
+                            разработчик</p>
+                    </div>
+                </div>
+                <div class="col-3 offset-2 card2">
+                    <img src="image/ляйсан.jpg" class="card-img-top p-1" alt="...">
+                    <div class="card-body">
+                        <p class="card2-text">Сафарова Ляйсан - аналитик, тестировщик, проектировщик интерфейса,
+                            дизайнер, верстальщик, front-end разработчик</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3>Миссия и цели</h3>
+                    <p>Нашей главной миссией является развитие внутреннего туризма, поэтому мы собираем туры только
+                        внутри России. Мы работаем, чтобы сделать TravelWUs лучшим туроператором для своих клиентов. Мы
+                        хотим, чтобы каждому человеку, который находится на сайте компании, пользуется услугами
+                        компании, нравилось быть клиентом TravelWUs. А для этого необходимо:</p>
+                    <ul>
+                        <li>предоставлять качественное обслуживания в любом месте и в любое время</li>
+                        <li>сделать все услуги TravelWUs, в соответствии с современными стандартами сервиса</li>
+                        <li>уделять внимание пожеланиям клиентов и оказывать максимальную заботу</li>
+                        <li>стараться, чтобы каждое наше решение принималось в интересах наших клиентов</li>
+                        <li>предлагать именно то, что нужно клиенту, и предвосхищать его желания</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+
 <footer>
     <div class="container footEl">
         <div class="row">
-            <div class="col-4"><h3>Популярные направления</h3></div>
-            <div class="col-4 offset-4"><h3>Туристам</h3></div>
+            <div class="col-4 list-group"><h4>Популярные направления</h4></div>
+            <div class="col-4 offset-1 list-group"><h4>Туристам</h4></div>
+            <div class="col-2 offset-1 list-group"><h4>Контакты:</h4></div>
         </div>
         <div class="row">
-            <div class="col-1 list-group">
+            <div class="col-2 list-group">
                 <a href="#">Москва</a>
                 <a href="#">Санкт-Петербург</a>
                 <a href="#">Казань</a>
                 <a href="#">Сочи</a>
                 <a href="#">Нижний Новгород</a>
             </div>
-            <div class="col-1 offset-1 list-group">
+            <div class="col-2 list-group">
                 <a href="#">Калининград</a>
                 <a href="#">Ярославль</a>
                 <a href="#">Екатеринбург</a>
                 <a href="#">Симферополь</a>
                 <a href="#">Анапа</a>
             </div>
-            <div class="col-1 offset-5 list-group">
+            <div class="col-2 offset-1 list-group">
                 <a href="#">Туры</a>
                 <a href="#">Авиабилеты</a>
                 <a href="#">Акции и спецпредложения</a>
                 <a href="#">Оставить отзывы</a>
             </div>
-            <div class="col-1 offset-1 list-group">
+            <div class="col-2 list-group">
                 <a href="inf/aboutvisa.html">О визах</a>
                 <a href="inf/howtobooktour.html">Как забронировать тур</a>
                 <a href="inf/minsdrav.html">Минздрав предупреждает</a>
                 <a href="inf/qws/qws.html">Популярные вопросы</a>
             </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-4 list-group">
-                <ul>Контакты:</ul>
-                <ul>8-800-555-35-35</ul>
-                <ul>8-800-510-00-00</ul>
+            <div class="col-2 offset-1 list-group">
+                <p class="list-group-item">8-800-555-35-35</p>
+                <p class="list-group-item">8-800-510-00-00</p>
             </div>
-            <div class="col offset-4">
-                <img src="image/visa.png">
-                <img src="image/mastercard.png">
-                <img src="image/Euroset.png">
+        </div>
+        <div class="row text-center">
+            <div class="col foot">
+                <img src="image/visa.svg">
+                <img src="image/mastercard.svg">
+                <img src="image/euroset.svg">
+                <img src="image/mir.svg">
+                <img src="image/sberbank.svg">
+                <img src="image/svyaznoy.svg">
+                <img src="image/alpha.svg">
+                <img src="image/prom.svg">
+                <img src="image/post.svg">
             </div>
         </div>
     </div>
 </footer>
+
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>

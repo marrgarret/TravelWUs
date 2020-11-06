@@ -14,17 +14,21 @@
 <body>
 <header>
     <nav>
-        <div class="container">
+        <div class="container  headerElBor">
             <div class="row align-items-center text-center">
                 <div class="col logo">
-                    <img src="../image/обложка.png">
+                    <a href="../index.html"><img src="../image/обложка.png"></a>
                 </div>
-                <div class="col headerEl"><a class="btn btn-block btn-secondary" href="#" role="button">Корзина</a></div>
-                <div class="col headerEl"><a class="btn btn-block btn-secondary" href="#" role="button">О компании</a></div>
-                <div class="col headerEl"><a class="btn btn-block btn-secondary" href="#" role="button">Оставить отзыв</a></div>
+                <div class="col headerEl"><a class="btn btn-block btn-secondary" href="../bucket/bucket.html"
+                                             role="button">Корзина</a></div>
+                <div class="col headerEl"><a class="btn btn-block btn-secondary" href="../aboutus.html" role="button">О
+                    компании</a></div>
+                <div class="col headerEl"><a class="btn btn-block btn-secondary" href="../feedback/feedback.html"
+                                             role="button">Оставить отзыв</a></div>
                 <div class="col headerEl">
                     <div>
-                        <button type="button" class="btn btn-block btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                        <button type="button" class="btn btn-block btn-secondary" data-toggle="modal"
+                                data-target="#exampleModal">
                             Войти
                         </button>
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -39,15 +43,18 @@
                                     <div class="modal-body">
                                         <div class="form-check">
                                             <div>
-                                                <label for="exampleFormControlInput1" class="form-label">Email адрес</label>
+                                                <label for="exampleFormControlInput1" class="form-label">Email
+                                                    адрес</label>
                                                 <input type="email" class="form-control" id="exampleFormControlInput1"
                                                        placeholder="name@example.com">
                                                 <label for="exampleFormControlInput2" class="form-label">Пароль</label>
-                                                <input type="password" class="form-control" id="exampleFormControlInput2"
+                                                <input type="password" class="form-control"
+                                                       id="exampleFormControlInput2"
                                                        placeholder="">
                                             </div>
                                             <h5>Еще не зарегестрированы?</h5>
-                                            <p> Тогда вам нужно <a href="#myModal" data-toggle="modal" class="tooltip-test"
+                                            <p> Тогда вам нужно <a href="#myModal" data-toggle="modal"
+                                                                   class="tooltip-test"
                                                                    title="Регистрация">зарегистрироваться</a></p>
                                         </div>
                                         <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
@@ -57,10 +64,12 @@
                                         </label>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть
+                                        </button>
                                         <button type="button" class="btn btn-info">Войти</button>
                                     </div>
-                                    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                    <div class="modal fade" id="myModal" tabindex="-1"
+                                         aria-labelledby="exampleModalLabel"
                                          aria-hidden="true">
                                         <div class="modal-dialog modal-lg">
                                             <div class="modal-content">
@@ -102,7 +111,8 @@
                                                             <button type="button" class="btn btn-danger"
                                                                     data-dismiss="modal">Закрыть
                                                             </button>
-                                                            <button type="button" class="btn btn-info">Регистрация</button>
+                                                            <button type="button" class="btn btn-info">Регистрация
+                                                            </button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -191,12 +201,14 @@
 </section>
 
 <section>
-    <div class="container">
+    <div class="container p-5">
         <div class="row navEl">
             <div class="col">
                 <h2>Отзывы и предложения</h2>
                 <h5>Уважаемые туристы!
-                    Все Ваши отзывы с пожеланиями, замечаниями и предложениями Вы можете направить нам с помощью формы ниже. Обращения рассматриваются по будням с 09:00 до 18:00 (московское время). Данная форма не предназначена для отправки заявок на тур.</h5>
+                    Все Ваши отзывы с пожеланиями, замечаниями и предложениями Вы можете направить нам с помощью формы
+                    ниже. Обращения рассматриваются по будням с 09:00 до 18:00 (московское время). Данная форма не
+                    предназначена для отправки заявок на тур.</h5>
                 <div class="mb-3">
                     <label for="exampleFormControlInput8" class="form-label">Ваше Ф.И.О.</label>
                     <input type="text" class="form-control" id="exampleFormControlInput8" placeholder="">
@@ -207,17 +219,19 @@
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput10" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput10" placeholder="name@example.com">
+                    <input type="email" class="form-control" id="exampleFormControlInput10"
+                           placeholder="name@example.com">
                 </div>
-                <label for="exampleDataList" class="form-label">Выберите тему</label>
-                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
-                <datalist id="datalistOptions">
-                    <option value="Сайт">
-                    <option value="Бронирование тура">
-                    <option value="Отель">
-                    <option value="Возврат средств">
-                    <option value="Иное">
-                </datalist>
+                <div class="mb-3">
+                    <h6>Выберите тему</h6>
+                    <select class="form-select" aria-label="Default select example">
+                        <option value="1">Сайт</option>
+                        <option value="2">Бронирование тура</option>
+                        <option value="3">Отель</option>
+                        <option value="4">Возврат средств</option>
+                        <option value="5">Иное</option>
+                    </select>
+                </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Отзыв</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
@@ -229,54 +243,56 @@
 
 </section>
 
-
-
-<footer class="footer">
+<footer>
     <div class="container footEl">
         <div class="row">
-            <div class="col-4"><h3>Популярные направления</h3></div>
-            <div class="col-4 offset-4"><h3>Туристам</h3></div>
+            <div class="col-4 list-group"><h4>Популярные направления</h4></div>
+            <div class="col-4 offset-1 list-group"><h4>Туристам</h4></div>
+            <div class="col-2 offset-1 list-group"><h4>Контакты:</h4></div>
         </div>
         <div class="row">
-            <div class="col-1 list-group">
+            <div class="col-2 list-group">
                 <a href="#">Москва</a>
                 <a href="#">Санкт-Петербург</a>
                 <a href="#">Казань</a>
                 <a href="#">Сочи</a>
                 <a href="#">Нижний Новгород</a>
             </div>
-            <div class="col-1 offset-1 list-group">
+            <div class="col-2 list-group">
                 <a href="#">Калининград</a>
                 <a href="#">Ярославль</a>
                 <a href="#">Екатеринбург</a>
                 <a href="#">Симферополь</a>
                 <a href="#">Анапа</a>
             </div>
-            <div class="col-1 offset-5 list-group">
+            <div class="col-2 offset-1 list-group">
                 <a href="#">Туры</a>
                 <a href="#">Авиабилеты</a>
                 <a href="#">Акции и спецпредложения</a>
                 <a href="#">Оставить отзывы</a>
             </div>
-            <div class="col-1 offset-1 list-group">
+            <div class="col-2 list-group">
                 <a href="../inf/aboutvisa.html">О визах</a>
                 <a href="../inf/howtobooktour.html">Как забронировать тур</a>
                 <a href="../inf/minsdrav.html">Минздрав предупреждает</a>
                 <a href="../inf/qws/qws.html">Популярные вопросы</a>
             </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-4 list-group">
-                <ul>Контакты:</ul>
-                <ul>8-800-555-35-35</ul>
-                <ul>8-800-510-00-00</ul>
+            <div class="col-2 offset-1 list-group">
+                <p class="list-group-item">8-800-555-35-35</p>
+                <p class="list-group-item">8-800-510-00-00</p>
             </div>
-            <div class="col offset-4">
-                <img src="../image/visa.png">
-                <img src="../image/mastercard.png">
-                <img src="../image/Euroset.png">
+        </div>
+        <div class="row text-center">
+            <div class="col foot">
+                <img src="../image/visa.svg">
+                <img src="../image/mastercard.svg">
+                <img src="../image/euroset.svg">
+                <img src="../image/mir.svg">
+                <img src="../image/sberbank.svg">
+                <img src="../image/svyaznoy.svg">
+                <img src="../image/alpha.svg">
+                <img src="../image/prom.svg">
+                <img src="../image/post.svg">
             </div>
         </div>
     </div>

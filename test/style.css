@@ -6,7 +6,7 @@ a {
 
 body {
     background: #d7ccc8;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Century Gothic';
 }
 
 .footer {
@@ -25,17 +25,38 @@ body {
 .modalText {
     text-align: start;
 }
-.headerEl {
-    border: white 1px solid
+
+.headerElBor {
+    border: 2px solid #a29a97;
 }
+
 .navEl {
-    background-color: white;
-    color: black;
+    border: 2px solid #a29a97;
+}
+
+.tourEl {
+    border: 2px solid #a29a97;
+    background-color: #a29a97;
+    border-radius: 5px;
+}
+
+.newsEl {
+    border-bottom: 2px solid #a29a97;
+}
+.newsElUl {
+    font-style: italic;
+    border-bottom: 2px solid #a29a97;
 }
 
 .footEl {
     background-color: #a29a97;
     color: black;
+    font-size: smaller;
+}
+
+.foot img {
+    height: 30px;
+    margin: 10px;
 }
 
 .row {
@@ -50,7 +71,7 @@ body {
 .btn-primary {
     background-color: #d7ccc8;
     color: black;
-    border-color: white;
+    border-color: #a29a97;
     border-radius: 0px;
     font-size: 1em
 }
@@ -58,7 +79,7 @@ body {
 .btn-secondary {
     background-color: #d7ccc8;
     color: black;
-    border-color: #d7ccc8;
+    border-color: #a29a97;
     border-radius: 0px;
     font-size: 1.1em
 }
@@ -66,6 +87,11 @@ body {
     background-color: white;
     border-color: white;
     border-radius: 0px;
+}
+
+.card2 {
+    border: 2px solid #a29a97;
+    border-radius: 10px;
 }
 
 .card-title {
@@ -79,33 +105,20 @@ body {
     font-style: oblique;
     font-weight: bold
 }
-.news {
-    font-size:30px;
-    color: #424242;
-    padding: 10px 290px 0 280px;
+.card2-text {
+    font-style: oblique;
 }
-.ntext {
-    padding: 10px 290px 30px 280px;
-    color: #424242;
+.list-group-item {
+    font-style: italic;
+    background-color: #d7ccc8;
 }
-.new2 {
-    font-size: 16px;
-    color: #424242;
-    padding: 10px 290px 30px 290px;
+
+.tableResults {
+    border-color: black;
 }
-.new2text {
-        font-size:23px;
-}
-.new2img {
-    width: 80%;
-    padding: 0 0 30px 100px;
-    text-align: center;
-}
-.new3img {
-    padding: 0 0 30px 100px;
-    text-align: center;
-}
-.ntext1 {
-    padding: 10px 0 0 30px;
-    color: #424242;
+
+.aboutUsImg {
+    height: 205px;
+    width: 366px;
+    margin: 10px;
 }
