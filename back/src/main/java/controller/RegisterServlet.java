@@ -1,5 +1,7 @@
 package controller;
 
+import dao.LoginDao;
+import dao.RegistrDao;
 import dao.UserDao;
 import model.User;
 import utilite.Hashing;
@@ -25,7 +27,7 @@ public class RegisterServlet extends HttpServlet {
         if (!Pattern.matches(pattern,email)){
             System.out.println("false");
             req.setAttribute("error", "Укажите правильно логин");
-            RequestDispatcher requestDispatcher = req.getRequestDispatcher("templates/registration.ftl");
+            RequestDispatcher requestDispatcher = req.getRequestDispatcher("index.html");
             requestDispatcher.forward(req, resp);
             return;
         }
@@ -33,7 +35,7 @@ public class RegisterServlet extends HttpServlet {
         if (!Pattern.matches(pattern_pass,password)){
             System.out.println("False2");
             req.setAttribute("error", "Укажите правильно пароль");
-            RequestDispatcher requestDispatcher = req.getRequestDispatcher("templates/registration.ftl");
+            RequestDispatcher requestDispatcher = req.getRequestDispatcher("index.html");
             requestDispatcher.forward(req, resp);
             return;
         }
@@ -42,11 +44,11 @@ public class RegisterServlet extends HttpServlet {
             System.out.println("ouu it is work");
             req.setAttribute("error", "Пароли не совпадают");
 
-            RequestDispatcher requestDispatcher = req.getRequestDispatcher("templates/registration.ftl");
+            RequestDispatcher requestDispatcher = req.getRequestDispatcher("index.html");
             requestDispatcher.forward(req, resp);
             return;
         }
-        RegistrationDao registrationDao = new RegistrationDao();
+        RegistrDao registrationDao = new RegistrDao();
         User user = new User();
         user.setName(req.getParameter("name"));
         user.setSurname(req.getParameter("surname"));
@@ -58,7 +60,7 @@ public class RegisterServlet extends HttpServlet {
         if (LoginDao.uniqUser(user)) {
             user = new User();
             req.setAttribute("error", "Такой email уже зарегистрирован");
-            RequestDispatcher requestDispatcher = req.getRequestDispatcher("templates/registration.ftl");
+            RequestDispatcher requestDispatcher = req.getRequestDispatcher("index.html");
             requestDispatcher.forward(req, resp);
             return;
         } else {
@@ -68,11 +70,11 @@ public class RegisterServlet extends HttpServlet {
         String userRegistr = registrationDao.registerUser(user);
 
         if (userRegistr.equals("SUCCESS")) {
-            RequestDispatcher requestDispatcher = req.getRequestDispatcher("templates/login.ftl");
+            RequestDispatcher requestDispatcher = req.getRequestDispatcher("login/login.html");
             requestDispatcher.forward(req, resp);
         } else {
             req.setAttribute("error", "Укажите правильно логин или пароль");
-            RequestDispatcher requestDispatcher = req.getRequestDispatcher("templates/registration.ftl");
+            RequestDispatcher requestDispatcher = req.getRequestDispatcher("index.html");
             requestDispatcher.forward(req, resp);
         }
     }
@@ -80,7 +82,7 @@ public class RegisterServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setAttribute("error","");
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("templates/registration.ftl");
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("index.html");
         requestDispatcher.forward(req, resp);
         
     }

@@ -1,21 +1,32 @@
 package utilite;
 
+import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public class Hashing {
-    public String hashing(String password) {
-        MessageDigest md5 = null;
+    public static String md5(String st) {
+        MessageDigest messageDigest = null;
+        byte[] digest = new byte[0];
+
         try {
-            md5 = MessageDigest.getInstance("MD5");
+            messageDigest = MessageDigest.getInstance("MD5");
+            messageDigest.reset();
+            messageDigest.update(st.getBytes());
+            digest = messageDigest.digest();
         } catch (NoSuchAlgorithmException e) {
-            throw new IllegalStateException();
+            // тут можно обработать ошибку
+            // возникает она если в передаваемый алгоритм в getInstance(,,,) не существует
+            e.printStackTrace();
         }
-        byte[] bytes = md5.digest(password.getBytes());
-        StringBuilder builder = new StringBuilder();
-        for (byte b : bytes) {
-            builder.append(b);
+
+        BigInteger bigInt = new BigInteger(1, digest);
+        String md5Hex = bigInt.toString(16);
+
+        while( md5Hex.length() < 32 ){
+            md5Hex = "0" + md5Hex;
         }
-        return builder.toString();
+
+        return md5Hex;
     }
 }

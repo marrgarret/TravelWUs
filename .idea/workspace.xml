@@ -20,78 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7020947a-7627-4c32-b0e2-b6ba259f9203" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/back/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/controller/RegisterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/dao/AbstractDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/model/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/utilite/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/utilite/Hashing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/bucket/bucket.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/cart/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/feedback/feedback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/aboutuslogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/alpha.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/euroset.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/mastercard.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/mir.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/post.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/prom.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/sberbank.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/svyaznoy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/visa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/ляйсан.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/рита.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/login/lk.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/login/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/tours/findtours.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/controller/servlets/RegistrationServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/dao/LoginDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/dao/RegistrationDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/filter/LoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/model/Booking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/model/Comment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/utilite/DBConnector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/utilite/DeleteCookie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/utilite/HashPassword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/utilite/Validator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/aboutus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/benefit/action1.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/benefit/action1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/benefit/actions.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/benefit/actions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new2.png" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new8.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new8.1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new8.2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new8.2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new8.3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new8.3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/акции1.png" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/акции1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/акции2.png" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/акции2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/акции3.png" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/акции3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/обл1.png" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/обл1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/inf/aboutvisa.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/inf/aboutvisa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/inf/howtobooktour.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/inf/howtobooktour.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/inf/inf.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/inf/inf.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/inf/minsdrav.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/inf/minsdrav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/inf/qws/qws.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/inf/qws/qws.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new1.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new2.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new3.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new4.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new5.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new6.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new7.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new8.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new9.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/style1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/controller/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/controller/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/dao/RegistrDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/dao/RegistrDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
