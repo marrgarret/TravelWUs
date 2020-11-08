@@ -4,7 +4,7 @@ a {
 }
 
 body {
-    background: image/oblaboutus.jpg;
+    background: /image/oblaboutus.jpg;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -98,7 +98,7 @@ body {
     text-align: center;
 }
 .new3img {
-    padding: 0 0 30px 100px;
+    padding: 0 0 30px; 100px;
     text-align: center;
 }
 .ntext1 {

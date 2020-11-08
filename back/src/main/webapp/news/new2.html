@@ -14,21 +14,114 @@
 <body>
 <header>
     <nav>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-3 logo navEl">
-                    <a href="index.html"><img src="../image/обложка.png"></a>
+        <div class="container headerElBor">
+            <div class="row align-items-center text-center">
+                <div class="col logo">
+                    <a href="../index.html"><img src="../image/обложка.png"></a>
                 </div>
-                <div class="col-9">
-                    <div class="row row-cols-4 navEl">
-                        <p class="col">Город отправления:</p>
-                        <p class="col">Контакты:</p>
-                        <a class="col">Корзина</a>
-                        <a class="col">Войти</a>
-                        <a class="col">Онлайн-бронирование</a>
-                        <a class="col">Города</a>
-                        <a class="col">О компании</a>
-                        <a class="col">Оставить отзыв</a>
+                <div class="col headerEl"><a class="btn btn-block btn-secondary" href="../bucket/bucket.html"
+                                             role="button">Корзина</a></div>
+                <div class="col headerEl"><a class="btn btn-block btn-secondary" href="../aboutus.html" role="button">О
+                    компании</a></div>
+                <div class="col headerEl"><a class="btn btn-block btn-secondary" href="../feedback/feedback.html"
+                                             role="button">Оставить отзыв</a></div>
+                <div class="col headerEl">
+                    <div>
+                        <button type="button" class="btn btn-block btn-secondary" data-toggle="modal"
+                                data-target="#exampleModal">
+                            Войти
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                             aria-hidden="true">
+                            <div class="modal-dialog modalText">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Войти</h5>
+                                        <button type="button" class="btn-close" data-dismiss="modal"
+                                                aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="form-check">
+                                            <div>
+                                                <label for="exampleFormControlInput1" class="form-label">Email
+                                                    адрес</label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                       placeholder="name@example.com">
+                                                <label for="exampleFormControlInput2" class="form-label">Пароль</label>
+                                                <input type="password" class="form-control"
+                                                       id="exampleFormControlInput2"
+                                                       placeholder="">
+                                            </div>
+                                            <h5>Еще не зарегестрированы?</h5>
+                                            <p> Тогда вам нужно <a href="#myModal" data-toggle="modal"
+                                                                   class="tooltip-test"
+                                                                   title="Регистрация">зарегистрироваться</a></p>
+                                        </div>
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                               checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Запомнить меня?
+                                        </label>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть
+                                        </button>
+                                        <button type="button" class="btn btn-info">Войти</button>
+                                    </div>
+                                    <div class="modal fade" id="myModal" tabindex="-1"
+                                         aria-labelledby="exampleModalLabel"
+                                         aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="myModalLabel">Регистрация</h5>
+                                                    <button type="button" class="btn-close" data-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="form-check">
+                                                        <div>
+                                                            <label for="exampleFormControlInput3" class="form-label">Email
+                                                                адрес</label>
+                                                            <input type="email" class="form-control"
+                                                                   id="exampleFormControlInput3"
+                                                                   placeholder="name@example.com">
+                                                            <label for="exampleFormControlInput4"
+                                                                   class="form-label">Имя</label>
+                                                            <input type="text" class="form-control"
+                                                                   id="exampleFormControlInput4"
+                                                                   placeholder="Олег">
+                                                            <label for="exampleFormControlInput5"
+                                                                   class="form-label">Логин</label>
+                                                            <input type="text" class="form-control"
+                                                                   id="exampleFormControlInput5"
+                                                                   placeholder="Oleg-KZN">
+                                                            <label for="exampleFormControlInput6"
+                                                                   class="form-label">Пароль</label>
+                                                            <input type="password" class="form-control"
+                                                                   id="exampleFormControlInput6"
+                                                                   placeholder="">
+                                                            <label for="exampleFormControlInput7" class="form-label">Повторите
+                                                                пароль</label>
+                                                            <input type="password" class="form-control"
+                                                                   id="exampleFormControlInput7"
+                                                                   placeholder="">
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-danger"
+                                                                    data-dismiss="modal">Закрыть
+                                                            </button>
+                                                            <button type="button" class="btn btn-info">Регистрация
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -38,9 +131,9 @@
 
 <section>
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-9">
-                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <div class="row">
+            <div class="col">
+                <div class="btn-group btn-block" role="group" aria-label="Button group with nested dropdown">
                     <div class="btn-group" role="group">
                         <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle"
                                 data-toggle="dropdown"
@@ -106,78 +199,95 @@
         </div>
     </div>
 </section>
-<section>
-    <div class="new2">
-        <p class="new2text">На Курорте Красная Поляна открыли летнюю террасу с бассейном и новые парные</p>
-        <p>
-            Банный комплекс 4 СТИХИИ на Поляне 960 расширил свою территорию: заработал открытый бассейн с видом на горные вершины,
-            летняя терраса с шезлонгами, две новые парные и дополнительные купели с горячей и холодной водой.
-            Территория отдыха и парения позволяет гостям курорта наслаждаться великолепными видами на Главный Кавказский хребет и
-            реликтовый буково-каштановый лес, граничащий с комплексом. Отличным дополнением к безмятежному отдыху станут спа-процедуры
-            Горных бань: пилинги для тела, растирания медом и солью, расслабляющие ритуалы и ароматерапия травами и эфирными маслами.
-        </p>
-        <img class="new2img" src="../image/new2.png">
-        <p>Для гостей комплекса 4 СТИХИИ теперь доступны три бани, построенные в духе природных стихий Огня, Воздуха и Земли:
-            русская и альпийская парные и баня-мазанка. Четвертая парная хамам, которая представляет стихию Воды, готовится к открытию в
-            предстоящем зимнем сезоне. Пространства Горных бань насыщены особым целебным запахом березовых дров, дубовых веников, мяты и
-            эвкалипта. Сам комплекс построен из натуральных материалов с использованием местных пород древесины черной ольхи, сибирского
-            кедра, сосны и лиственницы, что способствует укреплению здоровья, выделяет его особенным краснополянским стилем и подчеркивает
-            эко-направленность отдыха.</p>
-        <p>Не упустите возможность отдохнуть по выгодным ценам!</p>
-        <p>С уважением, TravelIWU</p>
-    </div>
 
+<section>
+    <div class="container">
+        <div class="col">
+            <h2>На Курорте Красная Поляна открыли летнюю террасу с бассейном и новые парные</h2>
+            <p>
+                Банный комплекс 4 СТИХИИ на Поляне 960 расширил свою территорию: заработал открытый бассейн с видом на
+                горные вершины,
+                летняя терраса с шезлонгами, две новые парные и дополнительные купели с горячей и холодной водой.
+                Территория отдыха и парения позволяет гостям курорта наслаждаться великолепными видами на Главный
+                Кавказский хребет и
+                реликтовый буково-каштановый лес, граничащий с комплексом. Отличным дополнением к безмятежному отдыху
+                станут спа-процедуры
+                Горных бань: пилинги для тела, растирания медом и солью, расслабляющие ритуалы и ароматерапия травами и
+                эфирными маслами.
+            </p>
+            <img class="p-2" src="../image/new2.png">
+            <p>Для гостей комплекса 4 СТИХИИ теперь доступны три бани, построенные в духе природных стихий Огня, Воздуха
+                и Земли:
+                русская и альпийская парные и баня-мазанка. Четвертая парная хамам, которая представляет стихию Воды,
+                готовится к открытию в
+                предстоящем зимнем сезоне. Пространства Горных бань насыщены особым целебным запахом березовых дров,
+                дубовых веников, мяты и
+                эвкалипта. Сам комплекс построен из натуральных материалов с использованием местных пород древесины
+                черной ольхи, сибирского
+                кедра, сосны и лиственницы, что способствует укреплению здоровья, выделяет его особенным краснополянским
+                стилем и подчеркивает
+                эко-направленность отдыха.</p>
+            <p>Не упустите возможность отдохнуть по выгодным ценам!</p>
+            <p class="text-right blockquote-footer">С уважением, TravelWUs</p>
+        </div>
+    </div>
 </section>
+
 <footer>
     <div class="container footEl">
         <div class="row">
-            <div class="col-4"><h3>Популярные направления</h3></div>
-            <div class="col-4 offset-4"><h3>Туристам</h3></div>
+            <div class="col-4 list-group"><h4>Популярные направления</h4></div>
+            <div class="col-4 offset-1 list-group"><h4>Туристам</h4></div>
+            <div class="col-2 offset-1 list-group"><h4>Контакты:</h4></div>
         </div>
         <div class="row">
-            <div class="col-1 list-group">
+            <div class="col-2 list-group">
                 <a href="#">Москва</a>
                 <a href="#">Санкт-Петербург</a>
                 <a href="#">Казань</a>
                 <a href="#">Сочи</a>
                 <a href="#">Нижний Новгород</a>
             </div>
-            <div class="col-1 offset-1 list-group">
+            <div class="col-2 list-group">
                 <a href="#">Калининград</a>
                 <a href="#">Ярославль</a>
                 <a href="#">Екатеринбург</a>
                 <a href="#">Симферополь</a>
                 <a href="#">Анапа</a>
             </div>
-            <div class="col-1 offset-5 list-group">
+            <div class="col-2 offset-1 list-group">
                 <a href="#">Туры</a>
                 <a href="#">Авиабилеты</a>
                 <a href="#">Акции и спецпредложения</a>
                 <a href="#">Оставить отзывы</a>
             </div>
-            <div class="col-1 offset-1 list-group">
-                <a href="#">О визах</a>
-                <a href="#">Как забронировать тур</a>
-                <a href="#">Минздрав предупреждает</a>
-                <a href="#">Популярные вопросы</a>
+            <div class="col-2 list-group">
+                <a href="../inf/aboutvisa.html">О визах</a>
+                <a href="../inf/howtobooktour.html">Как забронировать тур</a>
+                <a href="../inf/minsdrav.html">Минздрав предупреждает</a>
+                <a href="../inf/qws/qws.html">Популярные вопросы</a>
+            </div>
+            <div class="col-2 offset-1 list-group">
+                <p class="list-group-item">8-800-555-35-35</p>
+                <p class="list-group-item">8-800-510-00-00</p>
             </div>
         </div>
-
-
-        <div class="row">
-            <div class="col-4 list-group">
-                <ul>Контакты:</ul>
-                <ul>8-800-555-35-35</ul>
-                <ul>8-800-510-00-00</ul>
-            </div>
-            <div class="col offset-4">
-                <img src="../image/visa.png">
-                <img src="../image/mastercard.png">
-                <img src="../image/Euroset.png">
+        <div class="row text-center">
+            <div class="col foot">
+                <img src="../image/visa.svg">
+                <img src="../image/mastercard.svg">
+                <img src="../image/euroset.svg">
+                <img src="../image/mir.svg">
+                <img src="../image/sberbank.svg">
+                <img src="../image/svyaznoy.svg">
+                <img src="../image/alpha.svg">
+                <img src="../image/prom.svg">
+                <img src="../image/post.svg">
             </div>
         </div>
     </div>
 </footer>
+
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>

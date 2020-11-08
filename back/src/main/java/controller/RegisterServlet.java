@@ -1,19 +1,19 @@
-package controller.servlets;
+package controller;
 
+import dao.UserDao;
 import model.User;
-import dao.LoginDao;
-import dao.RegistrationDao;
-import filter.LoginFilter;
+import utilite.Hashing;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.regex.Pattern;
 
-public class RegistrationServlet extends HttpServlet {
+public class RegisterServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("UTF-8");
@@ -48,7 +48,7 @@ public class RegistrationServlet extends HttpServlet {
         }
         RegistrationDao registrationDao = new RegistrationDao();
         User user = new User();
-        user.setName(req.getParameter("username"));
+        user.setName(req.getParameter("name"));
         user.setSurname(req.getParameter("surname"));
         user.setEmail(email);
         user.setPhone(req.getParameter("phone"));
@@ -82,5 +82,6 @@ public class RegistrationServlet extends HttpServlet {
         req.setAttribute("error","");
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("templates/registration.ftl");
         requestDispatcher.forward(req, resp);
+        
     }
 }

@@ -6,8 +6,8 @@ public class User {
     private String surname;
     private String password;
     private String email;
-    private String img;
     private String phone;
+    private String city;
 
     public String getId() {
         return id;
@@ -49,19 +49,19 @@ public class User {
         this.email = email;
     }
 
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
-    }
-
     public String getPhone() {
         return phone;
     }
 
-    public void setPhone(String img) {
+    public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
     }
 }

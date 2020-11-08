@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7020947a-7627-4c32-b0e2-b6ba259f9203" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/back/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/controller/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/dao/AbstractDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/model/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/utilite/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/utilite/Hashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/bucket/bucket.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/cart/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/feedback/feedback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/aboutuslogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/alpha.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/euroset.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/mastercard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/mir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/post.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/prom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/sberbank.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/svyaznoy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/visa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/ляйсан.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/image/рита.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/login/lk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/webapp/tours/findtours.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/controller/servlets/RegistrationServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/dao/LoginDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/dao/RegistrationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/filter/LoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/model/Booking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/model/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/utilite/DBConnector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/utilite/DeleteCookie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/utilite/HashPassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/utilite/Validator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/benefit/action1.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/benefit/action1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/benefit/actions.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/benefit/actions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new2.png" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new8.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new8.1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new8.2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new8.2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/new8.3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/new8.3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/акции1.png" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/акции1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/акции2.png" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/акции2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/акции3.png" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/акции3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/image/обл1.png" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/image/обл1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/inf/aboutvisa.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/inf/aboutvisa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/inf/howtobooktour.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/inf/howtobooktour.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/inf/inf.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/inf/inf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/inf/minsdrav.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/inf/minsdrav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/inf/qws/qws.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/inf/qws/qws.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new1.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new2.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new3.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new4.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new5.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new6.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new7.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new8.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/new9.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/new9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/news/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/news/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/style1.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jyf4KclpR7VD6BssKu3dbMGO4M" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/back" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marga\Desktop\Travel2\TravelWUs\back\src\main\webapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marga\Desktop\Travel2\TravelWUs\back\src\main\webapp" />
+      <recent name="C:\Users\marga\Desktop\Travel2\TravelWUs\back\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7020947a-7627-4c32-b0e2-b6ba259f9203" name="Default Changelist" comment="" />
+      <created>1604781060141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604781060141</updated>
+      <workItem from="1604781061357" duration="3136000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1604782239234">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1604782239234" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604784085616">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1604784085616" />
+    <state x="368" y="0" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1604782099544">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="368" y="0" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1280.680@0.0.1280.680" timestamp="1604782099544" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1604784228955">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604784228955" />
+    <state x="91" y="2" key="new project wizard" timestamp="1604784118155">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="91" y="2" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1604784118155" />
+  </component>
+</project>

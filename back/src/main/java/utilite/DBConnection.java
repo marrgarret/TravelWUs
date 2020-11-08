@@ -4,10 +4,10 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class DBConnector {
+public class DBConnection {
     public static Connection createConnection() {
-        Connection con = null;
-        String url = "jdbc:mysql://localhost:3306/";
+        Connection connection = null;
+        String url = "jdbc:mysql://";
         String user = "root";
         String password = "root";
 
@@ -17,10 +17,10 @@ public class DBConnector {
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
             }
-            con = DriverManager.getConnection(url,user,password);
+            connection = DriverManager.getConnection(url,user,password);
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-        return con;
+        return connection;
     }
 }
