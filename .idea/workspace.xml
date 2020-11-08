@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7020947a-7627-4c32-b0e2-b6ba259f9203" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/controller/ProfileServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/controller/AddReviewServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/dao/ReviewDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/dao/ReviewDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/controller/ProfileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/controller/ProfileServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

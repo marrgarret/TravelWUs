@@ -33,7 +33,7 @@ public class ProfileServlet extends HttpServlet {
 
         if (!Pattern.matches(pattern,email) && !email.equals("")){
             req.setAttribute("error_email", "email не подходит под example@email.com");
-            RequestDispatcher requestDispatcher = req.getRequestDispatcher("templates/profile.ftl");
+            RequestDispatcher requestDispatcher = req.getRequestDispatcher("login/lk.html");
             requestDispatcher.forward(req, resp);
             return;
         }
