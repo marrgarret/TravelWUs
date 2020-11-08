@@ -35,15 +35,37 @@
         <url-pattern>/Login</url-pattern>
     </servlet-mapping>
 
+<!--    <servlet>-->
+<!--        <description></description>-->
+<!--        <display-name>AddReviewServlet</display-name>-->
+<!--        <servlet-name>AddReviewServlet</servlet-name>-->
+<!--        <servlet-class>controller.AddReviewServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>AddReviewServlet</servlet-name>-->
+<!--        <url-pattern>/AddReview</url-pattern>-->
+<!--    </servlet-mapping>-->
+
     <servlet>
         <description></description>
-        <display-name>AddReviewServlet</display-name>
-        <servlet-name>AddReviewServlet</servlet-name>
-        <servlet-class>controller.AddReviewServlet</servlet-class>
+        <display-name>ProfileServlet</display-name>
+        <servlet-name>ProfileServlet</servlet-name>
+        <servlet-class>controller.ProfileServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>AddReviewServlet</servlet-name>
-        <url-pattern>/AddReview</url-pattern>
+        <servlet-name>ProfileServlet</servlet-name>
+        <url-pattern>/Profile</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>TourServlet</display-name>
+        <servlet-name>TourServlet</servlet-name>
+        <servlet-class>controller.TourServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TourServlet</servlet-name>
+        <url-pattern>/Tour</url-pattern>
     </servlet-mapping>
 </web-app>
 

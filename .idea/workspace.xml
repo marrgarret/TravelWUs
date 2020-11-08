@@ -20,16 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7020947a-7627-4c32-b0e2-b6ba259f9203" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/controller/AddReviewServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/controller/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/dao/ReviewDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/dao/TourDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/controller/ProfileServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/controller/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/controller/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/filter/LoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/model/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/model/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/model/Tour.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/model/Tour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/controller/AddReviewServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/dao/ReviewDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/dao/ReviewDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
