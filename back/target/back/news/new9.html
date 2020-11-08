@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+          integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+
+    <title>News</title>
+
+</head>
+<body>
+<header>
+    <nav>
+        <div class="container headerElBor">
+            <div class="row align-items-center text-center">
+                <div class="col logo">
+                    <a href="../index.html"><img src="../image/обложка.png"></a>
+                </div>
+                <div class="col headerEl"><a class="btn btn-block btn-secondary" href="../bucket/bucket.html"
+                                             role="button">Корзина</a></div>
+                <div class="col headerEl"><a class="btn btn-block btn-secondary" href="../aboutus.html" role="button">О
+                    компании</a></div>
+                <div class="col headerEl"><a class="btn btn-block btn-secondary" href="../feedback/feedback.html"
+                                             role="button">Оставить отзыв</a></div>
+                <div class="col headerEl">
+                    <div>
+                        <button type="button" class="btn btn-block btn-secondary" data-toggle="modal"
+                                data-target="#exampleModal">
+                            Войти
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                             aria-hidden="true">
+                            <div class="modal-dialog modalText">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Войти</h5>
+                                        <button type="button" class="btn-close" data-dismiss="modal"
+                                                aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="form-check">
+                                            <div>
+                                                <label for="exampleFormControlInput1" class="form-label">Email
+                                                    адрес</label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                       placeholder="name@example.com">
+                                                <label for="exampleFormControlInput2" class="form-label">Пароль</label>
+                                                <input type="password" class="form-control"
+                                                       id="exampleFormControlInput2"
+                                                       placeholder="">
+                                            </div>
+                                            <h5>Еще не зарегестрированы?</h5>
+                                            <p> Тогда вам нужно <a href="#myModal" data-toggle="modal"
+                                                                   class="tooltip-test"
+                                                                   title="Регистрация">зарегистрироваться</a></p>
+                                        </div>
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                               checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Запомнить меня?
+                                        </label>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть
+                                        </button>
+                                        <button type="button" class="btn btn-info">Войти</button>
+                                    </div>
+                                    <div class="modal fade" id="myModal" tabindex="-1"
+                                         aria-labelledby="exampleModalLabel"
+                                         aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="myModalLabel">Регистрация</h5>
+                                                    <button type="button" class="btn-close" data-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="form-check">
+                                                        <div>
+                                                            <label for="exampleFormControlInput3" class="form-label">Email
+                                                                адрес</label>
+                                                            <input type="email" class="form-control"
+                                                                   id="exampleFormControlInput3"
+                                                                   placeholder="name@example.com">
+                                                            <label for="exampleFormControlInput4"
+                                                                   class="form-label">Имя</label>
+                                                            <input type="text" class="form-control"
+                                                                   id="exampleFormControlInput4"
+                                                                   placeholder="Олег">
+                                                            <label for="exampleFormControlInput5"
+                                                                   class="form-label">Логин</label>
+                                                            <input type="text" class="form-control"
+                                                                   id="exampleFormControlInput5"
+                                                                   placeholder="Oleg-KZN">
+                                                            <label for="exampleFormControlInput6"
+                                                                   class="form-label">Пароль</label>
+                                                            <input type="password" class="form-control"
+                                                                   id="exampleFormControlInput6"
+                                                                   placeholder="">
+                                                            <label for="exampleFormControlInput7" class="form-label">Повторите
+                                                                пароль</label>
+                                                            <input type="password" class="form-control"
+                                                                   id="exampleFormControlInput7"
+                                                                   placeholder="">
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-danger"
+                                                                    data-dismiss="modal">Закрыть
+                                                            </button>
+                                                            <button type="button" class="btn btn-info">Регистрация
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="btn-group btn-block" role="group" aria-label="Button group with nested dropdown">
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle"
+                                data-toggle="dropdown"
+                                aria-expanded="false">
+                            Откуда
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDrop2" type="button" class="btn btn-primary dropdown-toggle"
+                                data-toggle="dropdown"
+                                aria-expanded="false">
+                            Куда
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDrop3" type="button" class="btn btn-primary dropdown-toggle"
+                                data-toggle="dropdown"
+                                aria-expanded="false">
+                            Даты выезда
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDrop4" type="button" class="btn btn-primary dropdown-toggle"
+                                data-toggle="dropdown"
+                                aria-expanded="false">
+                            Количество ночей
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDrop5" type="button" class="btn btn-primary dropdown-toggle"
+                                data-toggle="dropdown"
+                                aria-expanded="false">
+                            Количество человек
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-primary">Подобрать тур</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="col">
+            <h2>Условия перебронирования от 15.10.2020 г.</h2>
+            <p>
+                Уважаемые туристы и партнёры нашей компании!</p>
+            <p>
+                Компания TravelIWU готова перебронировать туристские продукты, забронированные в срок по 31.03.2020 года
+                на тех же туристов, в соответствии с порядком перебронирования от 15.10.2020 года:
+            </p>
+            <ul>
+                <li>Перебронирование туристских продуктов на равнозначные с сохранением стоимости первоначального
+                    бронирования допускается
+                    для любых направлений только на 2021 год с сохранением всех существенных условий путешествия на
+                    аналогичные первоначальному
+                    бронированию даты заездов 2020 года на тех же туристов. Заявки на перебронирование турпродукта
+                    необходимо направить
+                    Туроператору в срок по 31.03.2021 включительно.
+                </li>
+
+                <p>Исключение:</p>
+                <li>Допускается перебронирование турпродукта с одной страны временного пребывания на другой город
+                    по актуальной цене на сайте* для туристов, достигших возраста 65-ти лет и лиц, находящиеся в трудной
+                    жизненной
+                    ситуациисогласно Постановлению Правительства № 1073 от 20.07.2020 г.
+                    - Перебронирование туристских продуктов по направлениям Самара и Дагестанская Республика с вылетом в
+                    период 01.11-30.11.2020 года
+                    возможно на вылеты 01.10-31.10.2021 г. на условиях пункта №1 или на направление Санкт-Петербург с
+                    вылетом в период 01.11-30.11.2020 года по
+                    актуальной цене сайта*.
+
+                    Не допускается перебронирование турпродукта с 2021 года на 2020 год.
+                </li>
+
+                <p>Исключение:</p>
+                <li>Туристские продукты по направлению Сантк-Петербург, перебронированные до 15.10.2020 на вылеты в
+                    2021 году, могут быть восстановлены на
+                    исходные вылеты первоначального бронирования в период 01.11-30.11.2020 года.
+                </li>
+            </ul>
+            <p>*Правила перебронирования по актуальным ценам на сайте:</p>
+            <p>- если стоимость турпродукта на сайте дороже ранее забронированного, то заказчик должен произвести
+                доплату;
+                - если стоимость турпродукта на сайте ниже ранее забронированного, то разница в стоимости депонируется с
+                возможностью ее
+                использования в 2021 году.</p>
+
+            <p>Перебронь необходимо выслать Туроператору по договору, заявления по перезачету денежных средств в
+                установленном порядке в
+                бухгалтерию Туроператора по договору.
+                Перезачет оплаченных денежных средств с первоначально забронированной заявки возможен только в случае
+                перебронирования согласно
+                условиям, обозначенным выше. В ином случае заявка рассматривается как новая и подлежит оплате.</p>
+
+
+            <p>Мы искренне благодарны за то, что Вы выбрали нашу компанию, надеемся, что в будущем впечатления об отдыхе
+                с туроператором
+                TravelIWU будут только положительные.</p>
+            <p class="text-right blockquote-footer">С уважением, TravelWUs 16.10.2020</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container footEl">
+        <div class="row">
+            <div class="col-4 list-group"><h4>Популярные направления</h4></div>
+            <div class="col-4 offset-1 list-group"><h4>Туристам</h4></div>
+            <div class="col-2 offset-1 list-group"><h4>Контакты:</h4></div>
+        </div>
+        <div class="row">
+            <div class="col-2 list-group">
+                <a href="#">Москва</a>
+                <a href="#">Санкт-Петербург</a>
+                <a href="#">Казань</a>
+                <a href="#">Сочи</a>
+                <a href="#">Нижний Новгород</a>
+            </div>
+            <div class="col-2 list-group">
+                <a href="#">Калининград</a>
+                <a href="#">Ярославль</a>
+                <a href="#">Екатеринбург</a>
+                <a href="#">Симферополь</a>
+                <a href="#">Анапа</a>
+            </div>
+            <div class="col-2 offset-1 list-group">
+                <a href="#">Туры</a>
+                <a href="#">Авиабилеты</a>
+                <a href="#">Акции и спецпредложения</a>
+                <a href="#">Оставить отзывы</a>
+            </div>
+            <div class="col-2 list-group">
+                <a href="../inf/aboutvisa.html">О визах</a>
+                <a href="../inf/howtobooktour.html">Как забронировать тур</a>
+                <a href="../inf/minsdrav.html">Минздрав предупреждает</a>
+                <a href="../inf/qws/qws.html">Популярные вопросы</a>
+            </div>
+            <div class="col-2 offset-1 list-group">
+                <p class="list-group-item">8-800-555-35-35</p>
+                <p class="list-group-item">8-800-510-00-00</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col foot">
+                <img src="../image/visa.svg">
+                <img src="../image/mastercard.svg">
+                <img src="../image/euroset.svg">
+                <img src="../image/mir.svg">
+                <img src="../image/sberbank.svg">
+                <img src="../image/svyaznoy.svg">
+                <img src="../image/alpha.svg">
+                <img src="../image/prom.svg">
+                <img src="../image/post.svg">
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js"
+        integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

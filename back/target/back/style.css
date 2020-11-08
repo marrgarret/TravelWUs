@@ -1,0 +1,124 @@
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background: #d7ccc8;
+    font-family: 'Century Gothic';
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.logo {
+    padding: 0px;
+    margin: auto;
+}
+
+.wallpaper {
+    padding: 20px;
+    margin: auto;
+}
+.modalText {
+    text-align: start;
+}
+
+.headerElBor {
+    border: 2px solid #a29a97;
+}
+
+.navEl {
+    border: 2px solid #a29a97;
+}
+
+.tourEl {
+    border: 2px solid #a29a97;
+    background-color: #a29a97;
+    border-radius: 5px;
+}
+
+.newsEl {
+    border-bottom: 2px solid #a29a97;
+}
+.newsElUl {
+    font-style: italic;
+    border-bottom: 2px solid #a29a97;
+}
+
+.footEl {
+    background-color: #a29a97;
+    color: black;
+    font-size: smaller;
+}
+
+.foot img {
+    height: 30px;
+    margin: 10px;
+}
+
+.row {
+    padding: 10px;
+}
+
+.btn-group {
+    padding: 0px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #d7ccc8;
+    color: black;
+    border-color: #a29a97;
+    border-radius: 0px;
+    font-size: 1em
+}
+
+.btn-secondary {
+    background-color: #d7ccc8;
+    color: black;
+    border-color: #a29a97;
+    border-radius: 0px;
+    font-size: 1.1em
+}
+.card {
+    background-color: white;
+    border-color: white;
+    border-radius: 0px;
+}
+
+.card2 {
+    border: 2px solid #a29a97;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: black;
+    font-size: 1.8em;
+    font-weight: bold
+}
+
+.card-text {
+    color: black;
+    font-style: oblique;
+    font-weight: bold
+}
+.card2-text {
+    font-style: oblique;
+}
+.list-group-item {
+    font-style: italic;
+    background-color: #d7ccc8;
+}
+
+.tableResults {
+    border-color: black;
+}
+
+.aboutUsImg {
+    height: 205px;
+    width: 366px;
+    margin: 10px;
+}
